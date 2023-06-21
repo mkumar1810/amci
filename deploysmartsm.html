@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8">
+  <meta name="format-detection" content="telephone=yes">
+  <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+  <title>Installing Smart-SM</title>
+  <style type="text/css">
+     body{background:#FF9235;}
+     h3{padding-top:0px;margin-top:2px;color:#faff00;margin-left:70px;}
+    .button{background-color:#f13b98;border: none;color: #faff00;padding: 15px 32px;text-align: center;text-decoration:none;display: inline-block;font-size: 16px; border-radius: 4px;-webkit-appearance: none;}
+    .wrapper{width:100%; min-height:100%;}
+    .message-wrapper{width:100%; background:#fff; border:1px solid #ccc; min-height:550px; display:block; max-width:700px; margin:30px auto; float:none; padding:0;}
+    .header-wrap{background-color: #f13b98;
+            background: -moz-radial-gradient(center, ellipse cover,#f13b98  0%, #f13b98 100%);
+            background: -webkit-radial-gradient(center, ellipse cover,#f13b98 0%,#f13b98 100%);
+            background: radial-gradient(ellipse at center,#f13b98 0%,#f13b98 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f13b98', endColorstr='#f13b98',GradientType=1 );
+            position:static; display:block; width:100%; height:80px; overflow:hidden; margin-bottom:0px;}
+    .navbar-brand{padding:10px;}
+    .content-wrap{display:block; overflow:hidden; padding:15px;background-color:#f1c400}
+    .btn-block{width:100%;height:auto;margin:0 auto;text-align:center;background-color:#f1c400}
+    img{max-width:100%; height:auto !important;float:left;padding-left:10px;margin-top:10px;}
+    </style>
+    <script type="text/javascript">
+        function invokeinstall() 
+        {
+            var appInstallURL = "itms-services://?action=download-manifest&url=https%3A%2F%2Fdl.dropboxusercontent.com%2Fscl%2Ffi%2Fzugj4a80nzaf9yc3gbh3s%2Fmanifest.plist%3Fdl%3D0%26rlkey%3Dqh3c9zyvdc2n79piziqsb9auk";
+	        window.open(appInstallURL);
+    	    //window.close();
+        	return false;
+	  	};
+    </script>
+</head>
+<body>
+<section class="wrapper">
+<div class="message-wrapper">
+<header class="header-wrap">
+    <a href="javascript:void(0);" class="navbar-brand"><img src="images/smartsmlogo.png" width="50" height="60" /></a>
+    <h3>Smart-SM</h3>
+</header>
+<div class="content-wrap">
+    <p><ul><li>Smart-SM used for entering orders, collection and activities of sales man</li>
+    <li>here you can add order items quantity and rate details, images of order form also can be photographed.</li>
+      <li>you can add collection amount, cheque details and cheque images also</li> </p>
+    <p>To install Smart-SM App follow these instructions</ul></p>
+    <ol>
+        <li>First tap "Install Smart-SM" button.</li>
+        <li>Followed by confirmation alert "Open this page in App Store?" tap open.</li>
+        <li>Followed by installation alert "dl.dropboxusercontent.com would like to install Smart-SM" tap install.</li>
+        <li>App start to install.</li>
+        <li>once the instalation is complete tap the Smart-SM icon to open the app. </li>
+    </ol>
+</div>
+<div class="btn-block">
+    <a href="#" id="text" onclick="invokeinstall(); return false;" >
+    <input id="Button1" type="button" value="Install smart-SM" style="font-weight:bold;" class="button"/></a><br /><br />
+</div>
+</div>
+</section>
+</body>
+</html>
